@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+h1,h2,h3{
+    font-size: 30px;
+}
+.container{
+    padding: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 30px;
+}
+form{
+    flex: 1;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    height: 400px;
+    padding-top: 50px;
+    justify-content:flex-start;
+    align-items: center;
+    gap: 10px;
+}
+input{
+    width: 50px;
+}
+button{
+    padding: 10px;
+    text-align: center;
+    border-radius: 15px;
+}
+a{
+    font-size:20px;
+    text-decoration: none;
+}
